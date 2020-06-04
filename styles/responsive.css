@@ -15,6 +15,10 @@
         left: 50%;
         transform: translatex(-50%);
     }   
+
+    #page-search-results .cards {
+        grid-template-columns: 1fr;
+    }
 }
 #page-home main {
     align-items: center;
