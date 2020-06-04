@@ -86,7 +86,7 @@ form select {
 
 form label {
     font-size: 14px;
-    margin-bottom: 8px;0
+    margin-bottom: 8px;
     
 }
 
@@ -147,3 +147,7 @@ form button:hover {
 
 }
 
+.itens-grid li img,
+.itens-grid li span {
+    pointer-events: none;
+}
