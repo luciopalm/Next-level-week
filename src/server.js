@@ -7,10 +7,9 @@ const server = express()
 //res:resposta
 
 server.get("/", (req, res) => {
-    res.send("Hello world")
+    res.sendFile(__dirname + "/views/index.html")
 
 })
-
 
 
 
